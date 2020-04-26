@@ -4,24 +4,29 @@ require('dotenv').config();
 
 const auth = {
     auth: {
-        api_key: '07845d664cfc649b36f215e340bcda82-f135b0f1-5914917e',
-        domain: 'sandbox2ccbeefb3557473f929569c6fc7fc4bb.mailgun.org'
+        api_key: env.process.API_KEY,
+        domain: 'sandboxbf0c02f690aa46a9814189021443d8e1.mailgun.org'
     }
 };
 
 const transporter = nodemailer.createTransport(mailGun(auth));
 
-const mailOptions = {
-    from: 'jr23yt@gmail.com',
-    to: 'joshkannenberg@icloud.com',
-    subject: 'Testing',
-    text: 'I would like to get in touch with you'
-};
+const sendMail = (name, email, subject, text, cb) => {
+    const mailOptions = {
+        name: name,
+        from: email,
+        to: 'ricksservice1974@gmail.com',
+        subject,
+        text: text + '\n' + '\n' + 'Message sent from ' + name + ' via ricksservicecentre.com'
+    };
 
-transporter.sendMail(mailOptions, function(err, data) {
-    if (err) {
-        console.log('Error Occurs');
-    } else {
-        console.log('Message Sent!')
-    }
-});
+    transporter.sendMail(mailOptions, function(err, data) {
+        if (err) {
+            cb(err, null);
+        } else {
+            cb(null, data);
+        }
+    });
+}
+
+module.exports = sendMail;
