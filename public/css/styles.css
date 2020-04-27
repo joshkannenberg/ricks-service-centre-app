@@ -338,6 +338,7 @@ nav {
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
+        padding-top: 100px;
     }
 
     .main-logo {
@@ -359,10 +360,21 @@ nav {
         font-size: 16px;
         margin-left: auto;
     }
+    
+    .main-nav {
+        position: fixed;
+        top: 0;
+        z-index: 99999;
+        width: 100%;
+        display: flex;
+    }
+    
     .nav-links {
         position: fixed;
         right: 0px;
         height: 92vh;
+        padding-top: 50px;
+        padding-bottom: 50px;
         top: 8vh;
         background-color: #16161a;
         display: flex;
@@ -399,7 +411,7 @@ nav {
         margin-left: auto;
         padding-right: 30px;
         display: block;
-        z-index: 1000
+        z-index: 1000;
     }
 }
 
