@@ -17,7 +17,7 @@ const sendMail = (name, email, subject, text, cb) => {
         from: email,
         to: 'ricksservice1974@gmail.com',
         subject,
-        text: text + '\n' + '\n' + 'Message sent from ' + name + ' via ricksservicecentre.com'
+        text: text + '\n' + '\n' + 'Message sent from ' + name + ' via ricksservicecentre.ca'
     };
 
     transporter.sendMail(mailOptions, function(err, data) {
