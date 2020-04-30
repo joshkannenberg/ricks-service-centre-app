@@ -22,8 +22,8 @@
 
 
         <!--Temp CSS-->
-<!--
-        
+        <!--
+
 
 <link rel="stylesheet" href="/public/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/public/css/styles.css" />
@@ -116,7 +116,7 @@
                         <p class="card-text">We will inspect your lighting system including headlamps, brake lights, turn signals, and more. We will also help improve visibility by checking your wipers and wiper fluid.</p>
                     </div>
                 </div>
-                </div>
+            </div>
             <div class="card-group">
                 <div class="card">
                     <img class="card-img-top" src="/assets/oil-change.jpg" alt="Card image cap">
@@ -275,7 +275,7 @@
                 <div class="row">
 
                     <!--Grid column-->
-                    <div class="col-md-12 mb-md-0 mb-5">
+                    <div class="col-md-6 mb-md-0 mb-2">
                         <form>
 
                             <!--Grid row-->
@@ -345,15 +345,34 @@
                             <!--Grid row-->
 
                         </form>
-                        
+
                         <div class="status"></div>
                     </div>
                     <!--Grid column-->
+                    
+                    <div class="col-md-6 rsc-map">
+
+
+                        <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                            <iframe class ="shop-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11670.994278959482!2d-79.2849906!3d43.0046286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8202951837f3f652!2sRick&#39;s%20Service%20%26%20Tire%20Centre!5e0!3m2!1sen!2sca!4v1588266579977!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+                        <br>
+
+                        <div class="information col-md-12">
+                            <p>Address: 624 South Pelham Road, Welland ON L3C 3C8</p>
+                            <p>Hours: Mon-Fri 8:00-5:00</p>
+                            <p>Phone: 905-735-9314</p>
+                        </div>
+
+                    </div>
 
                 </div>
 
             </section>
+            
         </div>
+
 
         <!-- The Modal -->
         <div id="failureModal" class="modal">
@@ -365,7 +384,7 @@
             </div>
 
         </div>
-        
+
         <!-- Success -->
         <div id="successModal" class="modal2">
 
@@ -381,17 +400,17 @@
         <!--        <script src="js/mail.js"></script>-->
         <script src="js/main.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
+
         <!--------------------ModalSuccessJS--------------------->
         <script>
-            
+
             var modal2 = document.getElementById("successModal");
 
             // Get the <span> element that closes the modal
             var span = document.getElementsByClassName("close2")[0];
 
             // When the user clicks on the button, open the modal
-            
+
             function sentEmailSuccess() {
                 modal2.style.display = "block";
             }
@@ -408,18 +427,18 @@
                 }
             }
         </script>
-        
-        
+
+
         <!--------------------ModalFailureJS--------------------->
         <script>
-            
+
             var modal = document.getElementById("failureModal");
 
             // Get the <span> element that closes the modal
             var span = document.getElementsByClassName("close")[0];
 
             // When the user clicks on the button, open the modal
-            
+
             function sentEmailFailure() {
                 modal.style.display = "block";
             }

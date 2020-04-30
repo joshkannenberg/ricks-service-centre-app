@@ -150,7 +150,7 @@
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    
+
     @include media-breakpoint-only(lg) {
         column-count: 4;
     }
@@ -312,16 +312,56 @@ nav {
     transition: all 0.3s ease;
 }
 
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.new-contact {
+    background-color: white;
+}
+
+.contact-card-body {
+    background-color: white;
+}
+
+.contact-card {
+    border: 0;
+    background-color: white;
+}
+
+.rsc-map {
+    background-color: white;
+    padding-top: 0px;
+
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
     .nav-links {
         width: 40%;
+    }
+
+    .md-form {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .card-body {
         padding-right: 0px;
         padding-left: 0px;
     }
-    
+
     .card img {
         padding: 0;
     }
@@ -333,6 +373,8 @@ nav {
         padding-bottom: 50px;
         background-color: white;
     }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -340,6 +382,19 @@ nav {
         overflow-x: hidden;
         padding-top: 100px;
     }
+
+    iframe {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .pb-5 {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+
 
     .main-logo {
         margin-left: 0;
@@ -360,7 +415,7 @@ nav {
         font-size: 16px;
         margin-left: auto;
     }
-    
+
     .main-nav {
         position: fixed;
         top: 0;
@@ -368,7 +423,7 @@ nav {
         width: 100%;
         display: flex;
     }
-    
+
     .nav-links {
         position: fixed;
         right: 0px;
@@ -398,7 +453,7 @@ nav {
         padding-right: 0px;
         padding-left: 0px;
     }
-    
+
     .contact {
         padding-right: 0px;
         padding-left: 0px;
@@ -406,7 +461,14 @@ nav {
         padding-bottom: 50px;
         background-color: white;
     }
-    
+
+    .rsc-map {
+        background-color: white;
+        padding-top: 60px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
     .burger {
         margin-left: auto;
         padding-right: 30px;
