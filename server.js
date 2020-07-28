@@ -31,4 +31,8 @@ app.use(express.static(__dirname + '/public', {
     extensions: ['html', 'htm']
 }));
 
+app.get('/', function get(req, res) {
+    res.sendFile('/index.html');
+});
+
 app.listen(PORT, () => console.log('Server is starting on PORT, ', PORT));
