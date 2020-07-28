@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.py-2 {
+    font-size: 50px;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -80,6 +84,10 @@
 
 .display-4 {
     font-size: 25px;
+    
+}
+
+.update-bar {
     padding-left: 40px;
 }
 
@@ -95,10 +103,29 @@
     padding-bottom: 50px;
 }
 
+/*Auto Services Page*/
+
+.service-header {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    background-color: #16161a;
+}
+
+.auto-service-title {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+
+.services p {
+    color: rgb(226, 226, 226);
+}
+
 .jumbotron p {
     font-size: 14px;
-    padding-left: 40px;
-    padding-right: 40px;
+    
 }
 
 .jumbotron {
@@ -141,9 +168,17 @@
     height: 5px
 }
 
-
 .entire-page {
+/*    background-color: #16161a;*/
+}
+
+.page-footer {
     background-color: #16161a;
+}
+
+.main-lead {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .card-body {
@@ -160,7 +195,7 @@
 }
 
 .card {
-    background-color: #16161a;
+/*    background-color: #16161a;*/
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
@@ -175,12 +210,16 @@
 }
 
 .card-text {
-    color: white;
+    color: black;
     font-size: 14px;
 }
 
 .card-title {
-    color: white;
+    color: black;
+}
+
+.card-body p {
+    color: black;
 }
 
 nav {
@@ -246,6 +285,18 @@ nav {
 }
 .tire-title {
     font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tire-page {
+    padding-top: 50px;
+}
+
+.tires-subtitle {
+    font-size: 25px;
+    padding-left: 0;
+    font-weight: bold;
 }
 
 .gallery {
@@ -344,6 +395,37 @@ nav {
 
 }
 
+.footer-title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+.page-footer p {
+    color: white;
+}
+
+.page-footer h5 {
+    color: blanchedalmond;
+}
+
+.page-footer a {
+    color: white;
+}
+
+.py-3 {
+    color: white;
+}
+
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
 
 

@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Your local Welland automotive repair shop and tire centre. Brakes, oil changes, alignments, and more. Need new tires? We've got you covered.">
-        <meta name="keywords" content="tires welland,welland oil change,welland car repair,tires,welland brakes">
-        <meta name="author" content="Josh Kannenberg">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93974160-2"></script>
         <script>
@@ -19,7 +10,15 @@
 
             gtag('config', 'UA-93974160-2');
         </script>
+        <meta charset="UTF-8">
+        <title>Welland Auto Repair & Maintenance | Ricks Service Centre</title>
+        <meta name="description" content="Welland car repair shop and tire centre. Brakes, oil changes, alignments, and more. Need new tires? We've got you covered.">
+        <meta name="keywords" content="tires welland,welland oil change,welland car repair,tires,welland brakes">
+        <meta name="author" content="Josh Kannenberg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
         <!--Temp CSS-->
         <!--
@@ -29,14 +28,11 @@
 <link rel="stylesheet" href="/public/css/styles.css" />
 -->
 
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/styles.css" />
-
-        <title>Welland Car Repair | Oil Change | Tires | Rick's Service Centre</title>
     </head>
 
     <body class="entire-page">
@@ -49,16 +45,16 @@
             </div>
             <ul class="nav-links">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <a href="./services">Services</a>
                 </li>
                 <li>
-                    <a href="#tire-section">Tires</a>
+                    <a href="./tires">Tires</a>
                 </li>
                 <li>
-                    <a href="#contact-section">Contact</a>
+                    <a href="./contact">Contact</a>
                 </li>
             </ul>
             <div class="burger">
@@ -67,17 +63,12 @@
                 <div class="line3"></div>
             </div>
         </nav>
+
         <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-4">COVID-19 UPDATE</h1>
-            <p class="lead">As an essential service, we are open. We have implemented social distancing measures to help prevent the spread of COVID-19. The waiting room is closed until further notice, but you can still drop your car off by leaving your keys in the drop box located on the centre bay door.</p>
+            <h1 class="display-4 update-bar">COVID-19 UPDATE</h1>
+            <p class="lead main-lead">As an essential service, we are open. We have implemented social distancing measures to help prevent the spread of COVID-19. The waiting room is closed until further notice, but you can still drop your car off by leaving your keys in the drop box located on the centre bay door.</p>
         </div>
-        <!--
-<div class="covid-bar">
-<div class="covid-bar-title">
-<h5></h5>
-</div>
-</div>
--->
+
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -89,10 +80,12 @@
         <div class="gap-1">
 
         </div>
+        
         <div class="services">
-            <!----------------Navigate to Services Section----------------->
-            <a name="services"></a>
-            <!----------------Navigate to Services Section----------------->
+
+            <h1 class="auto-service-title">Auto Services</h1>
+
+            <hr class="mt-2 mb-5">
 
             <div class="card-group">
                 <div class="card">
@@ -165,103 +158,6 @@
 
             </div>
         </div>
-
-        <!----------------Navigate to Tire Section----------------->
-        <a name="tire-section"></a>
-        <!----------------Navigate to Tire Section----------------->
-
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/assets/tire-banner.png" alt="First slide">
-                </div>
-            </div>
-        </div>
-
-        <div class="jumbotron jumbotron-fluid tire-jumbotron">
-
-            <!-- Page Content -->
-            <div class="container">
-
-                <h1 class="display-4 tire-title">Shop For Tires</h1>
-                <p class="lead tire-description">We offer a large selection of tires for cars and trucks. We will install and balance your tires and make sure that there are no issues that could affect their life.</p>
-
-                <hr class="mt-2 mb-5">
-
-                <div class="row text-center text-lg-left">
-
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.bfgoodrich.ca/en/home" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/bfg-logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.bridgestonetire.ca/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/bridgestone-logo.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.dunloptires.com/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/dunlop-logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://gtradial.ca/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/gt-logo.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.hankooktire.com/ca-en/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/hankook-logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.michelin.ca/en/home" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/michelin-logo.jpeg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.toyotires.ca/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/toyo-logo.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.uniroyal.ca/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/uniroyal-logo.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://tire.yokohama.ca/?gclid=Cj0KCQjwhZr1BRCLARIsALjRVQOHiZIKhIaEn1zWZp18hkSVU6_E-cZ8P6emBNXGUsnW_KuleJ5rmj8aAl3hEALw_wcB" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/yokahama-logo.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.pirelli.com/tyres/en-ww/car/homepage" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/pirelli-logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.goodyear.ca/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/goodyear-logo.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <a href="https://www.firestonetire.ca/" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="/assets/tire-logos/firestone-logo.jpeg" alt="">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            <!-- /.container -->
-
-
-        </div>
-
-
-        <!----------------Navigate to Contact Section----------------->
-        <a name="contact-section"></a>
-        <!----------------Navigate to Contact Section----------------->
 
         <div class="contact-us">
             <section class="mb-4 contact">
@@ -349,7 +245,7 @@
                         <div class="status"></div>
                     </div>
                     <!--Grid column-->
-                    
+
                     <div class="col-md-6 rsc-map">
 
 
@@ -370,7 +266,7 @@
                 </div>
 
             </section>
-            
+
         </div>
 
 
@@ -485,6 +381,111 @@
 
             });;
         </script>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                        <!-- Content -->
+                        <h5 class="font-weight-bold text-uppercase mb-4">Rick's Service Centre</h5>
+                        <p>Open Monday to Friday from 8AM to 5PM.</p>
+                        <p>Call us now at 905-735-9314 to schedule an appointment!</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>
+                                    <a href="/">Home</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="./services">Services</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="./tires">Tires</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="./contact">Contact Us</a>
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                        <!-- Contact details -->
+                        <h5 class="font-weight-bold text-uppercase mb-4">Contact Info</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>
+                                    <i></i>ricksservice1974@gmail.com</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i></i>905-735-9314</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                        <!-- Social buttons -->
+                        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                        <!-- Facebook -->
+                        <a target="blank" href="https://www.facebook.com/pages/category/Automotive-Repair-Shop/Ricks-Service-Centre-1173181456175013/" class="fa fa-facebook"></a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 copyright">© 2020 Copyright:
+                <a href="#">BrickMansion</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
     </body>
 
 
