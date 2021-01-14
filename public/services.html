@@ -1,257 +1,336 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93974160-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-93974160-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag('config', 'UA-93974160-2');
-        </script>
-        <meta charset="UTF-8">
-        <title>Services - Brakes, Tires, Oil Changes & More | Ricks Service Centre</title>
-        <meta name="description" content="We offer services ranging from general maintenance of your vehicle to advanced diagnostics and more.">
-        <meta name="keywords" content="automotive services,car repair services,welland car repair,services,ricks service centre">
-        <meta name="author" content="Josh Kannenberg">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-93974160-2");
+    </script>
+    <meta charset="UTF-8" />
+    <title>
+      Services - Brakes, Tires, Oil Changes & More | Ricks Service Centre
+    </title>
+    <meta
+      name="description"
+      content="We offer services ranging from general maintenance of your vehicle to advanced diagnostics and more."
+    />
+    <meta
+      name="keywords"
+      content="automotive services,car repair services,welland car repair,services,ricks service centre"
+    />
+    <meta name="author" content="Josh Kannenberg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
 
-
-        <!--Temp CSS-->
-        <!--
+    <!--Temp CSS-->
+    <!--
 
 
 <link rel="stylesheet" href="/public/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/public/css/styles.css" />
 -->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/styles.css" />
-    </head>
+  <body class="entire-page">
+    <nav class="main-nav">
+      <div class="main-logo">
+        <img src="/assets/rsc-logo.png" />
+      </div>
+      <div class="main-title">
+        <a class="title-text">Rick's Service Centre</a>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="./services">Services</a>
+        </li>
+        <li>
+          <a href="./tires">Tires</a>
+        </li>
+        <li>
+          <a href="./contact">Contact</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
 
-    <body class="entire-page">
-        <nav class="main-nav">
-            <div class="main-logo">
-                <img src="/assets/rsc-logo.png">
-            </div>
-            <div class="main-title">
-                <a class="title-text">Rick's Service Centre</a>
-            </div>
-            <ul class="nav-links">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="./services">Services</a>
-                </li>
-                <li>
-                    <a href="./tires">Tires</a>
-                </li>
-                <li>
-                    <a href="./contact">Contact</a>
-                </li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-        
-        <div class="services">
-            
-            <h1 class="auto-service-title">Auto Services</h1>
+    <div class="services">
+      <h1 class="auto-service-title">Auto Services</h1>
 
-                <hr class="mt-2 mb-5">
-            
+      <hr class="mt-2 mb-5" />
 
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="/assets/tires.jpg" alt="Card image cap">
-                    <div class="card-body service-cards">
-                        <h5 class="card-title">New Tires & Tire Repairs</h5>
-                        <p class="card-text">We offer tires from leading brands, from original equipment tires to the finest replacement tires available in the aftermarket.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/car-brakes.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Brakes</h5>
-                        <p class="card-text">From brake pads and rotors to ABS systems, our technicians can perform brake repairs on any kind of vehicle.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/car-headlights.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Lights & Wipers</h5>
-                        <p class="card-text">We will inspect your lighting system including headlamps, brake lights, turn signals, and more. We will also help improve visibility by checking your wipers and wiper fluid.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="/assets/oil-change.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Oil Change</h5>
-                        <p class="card-text">By replacing your engine oil and filter based on the manufacturers guidelines, you can extend the life of your engine. We replace the engine oil, filters, check tire pressure, and top up all other fluids.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/engine-light.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Check Engine Light</h5>
-                        <p class="card-text">A check engine light means you should have your vehicle looked at immediately. Rick's Service Centre has the tools and expertise required to find and diagnose check engine light codes.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/car-ac.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">AC & Heating Repairs</h5>
-                        <p class="card-text">If you are having issues with your AC or heating in your vehicle, we can fix it.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="/assets/car-lift.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Alignments</h5>
-                        <p class="card-text">Wheel alignments by experienced technicians using the most advanced technology. Call now to get a quote or schedule an appointment.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/car-suspension.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Steering & Suspension</h5>
-                        <p class="card-text">Have your steering and suspension system inspected to ensure the safety of your vehicle. Maintaining your steering and suspension system will extend the life of your tires and keep you safe on the road.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/car-battery.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Batteries, Starters, & Charging</h5>
-                        <p class="card-text">We can test your car battery to make sure it is holding a charge and replace it if necessary. The starter and alternator can also have issues.</p>
-                    </div>
-                </div>
-
-            </div>
+      <div class="card-group">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/engine-light.png"
+            alt="Card image cap"
+          />
+          <div class="card-body service-cards">
+            <h5 class="card-title">Check Engine Light</h5>
+            <p class="card-text">
+              A check engine light means you should have your vehicle looked at
+              immediately. Rick's Service Centre has the tools and expertise
+              required to find and diagnose check engine light codes.
+            </p>
+          </div>
         </div>
-        
-        <!--JS and JQuery-->
-        <script src="js/main.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
-            
-        <!-- Footer -->
-        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/car-brakes.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Brakes</h5>
+            <p class="card-text">
+              From brake pads and rotors to ABS systems, our technicians can
+              perform brake repairs on any kind of vehicle.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/car-headlights.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lights & Wipers</h5>
+            <p class="card-text">
+              We will inspect your lighting system including headlamps, brake
+              lights, turn signals, and more. We will also help improve
+              visibility by checking your wipers and wiper fluid.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/oil-change.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Oil Change</h5>
+            <p class="card-text">
+              By replacing your engine oil and filter based on the manufacturers
+              guidelines, you can extend the life of your engine. We replace the
+              engine oil, filters, check tire pressure, and top up all other
+              fluids.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/michelin.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">New Tires & Tire Repairs</h5>
+            <p class="card-text">
+              We offer tires from leading brands, from original equipment tires
+              to the finest replacement tires available in the aftermarket.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/car-ac.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">AC & Heating Repairs</h5>
+            <p class="card-text">
+              If you are having issues with your AC or heating in your vehicle,
+              we can fix it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/car-lift.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Alignments</h5>
+            <p class="card-text">
+              Wheel alignments by experienced technicians using the most
+              advanced technology. Call now to get a quote or schedule an
+              appointment.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/car-suspension.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Steering & Suspension</h5>
+            <p class="card-text">
+              Have your steering and suspension system inspected to ensure the
+              safety of your vehicle. Maintaining your steering and suspension
+              system will extend the life of your tires and keep you safe on the
+              road.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="/assets/car-battery.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Batteries, Starters, & Charging</h5>
+            <p class="card-text">
+              We can test your car battery to make sure it is holding a charge
+              and replace it if necessary. The starter and alternator can also
+              have issues.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <!-- Footer Links -->
-            <div class="container text-center text-md-left">
+    <!--JS and JQuery-->
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-                <!-- Grid row -->
-                <div class="row">
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mb-4">
+              Rick's Service Centre
+            </h5>
+            <p>Open Monday to Friday from 8AM to 5PM.</p>
+            <p>Call us now at 905-735-9314 to schedule an appointment!</p>
+          </div>
+          <!-- Grid column -->
 
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+          <hr class="clearfix w-100 d-md-none" />
 
-                        <!-- Content -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Rick's Service Centre</h5>
-                        <p>Open Monday to Friday from 8AM to 5PM.</p>
-                        <p>Call us now at 905-735-9314 to schedule an appointment!</p>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
 
-                    </div>
-                    <!-- Grid column -->
+            <ul class="list-unstyled">
+              <li>
+                <p>
+                  <a href="/">Home</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="./services">Services</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="./tires">Tires</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="./contact">Contact Us</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
 
-                    <hr class="clearfix w-100 d-md-none">
+          <hr class="clearfix w-100 d-md-none" />
 
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+            <!-- Contact details -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Contact Info</h5>
 
-                        <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <p><i></i>ricksservice1974@gmail.com</p>
+              </li>
+              <li>
+                <p><i></i>905-735-9314</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
 
-                        <ul class="list-unstyled">
-                            <li>
-                                <p>
-                                    <a href="/">Home</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <a href="./services">Services</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <a href="./tires">Tires</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <a href="./contact">Contact Us</a>
-                                </p>
-                            </li>
-                        </ul>
+          <hr class="clearfix w-100 d-md-none" />
 
-                    </div>
-                    <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+            <!-- Social buttons -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
 
-                    <hr class="clearfix w-100 d-md-none">
+            <!-- Facebook -->
+            <a
+              target="blank"
+              href="https://www.facebook.com/pages/category/Automotive-Repair-Shop/Ricks-Service-Centre-1173181456175013/"
+              class="fa fa-facebook"
+            ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
 
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-                        <!-- Contact details -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Contact Info</h5>
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <p>
-                                    <i></i>ricksservice1974@gmail.com</p>
-                            </li>
-                            <li>
-                                <p>
-                                    <i></i>905-735-9314</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="clearfix w-100 d-md-none">
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-
-                        <!-- Social buttons -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
-
-                        <!-- Facebook -->
-                        <a target="blank" href="https://www.facebook.com/pages/category/Automotive-Repair-Shop/Ricks-Service-Centre-1173181456175013/" class="fa fa-facebook"></a>
-
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-            </div>
-            <!-- Footer Links -->
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3 copyright">© 2020 Copyright:
-                <a href="#">Astralight</a>
-            </div>
-            <!-- Copyright -->
-
-        </footer>
-        <!-- Footer -->
-    </body>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 copyright">
+        © 2020 Copyright:
+        <a href="#">Astralight</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
 </html>
