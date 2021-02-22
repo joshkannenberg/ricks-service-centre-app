@@ -1,401 +1,423 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93974160-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-93974160-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag('config', 'UA-93974160-2');
-        </script>
-        <meta charset="UTF-8">
-        <title>Contact Us | Ricks Service Centre</title>
-        <meta name="description" content="Contact us today to schedule an appointment! Use the form on our website or give us a call.">
-        <meta name="keywords" content="ricks service centre welland,contact us,welland car repair,ricks service centre,welland brakes">
-        <meta name="author" content="Josh Kannenberg">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-93974160-2");
+    </script>
+    <meta charset="UTF-8" />
+    <title>Contact Us | Ricks Service Centre</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/rsc-logo.png" />
+    <meta
+      name="description"
+      content="Contact us today to schedule an appointment! Use the form on our website or give us a call."
+    />
+    <meta
+      name="keywords"
+      content="ricks service centre welland,contact us,welland car repair,ricks service centre,welland brakes"
+    />
+    <meta name="author" content="Josh Kannenberg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
 
-
-        <!--Temp CSS-->
-        <!--
+    <!--Temp CSS-->
+    <!--
 
 
 <link rel="stylesheet" href="/public/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/public/css/styles.css" />
 -->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/styles.css" />
-    </head>
+  <body class="entire-page">
+    <nav class="main-nav">
+      <div class="main-logo">
+        <img src="/assets/rsc-logo.png" />
+      </div>
+      <div class="main-title">
+        <a class="title-text">Rick's Service Centre</a>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="./services">Services</a>
+        </li>
+        <li>
+          <a href="./tires">Tires</a>
+        </li>
+        <li>
+          <a href="./contact">Contact</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
 
-    <body class="entire-page">
-        <nav class="main-nav">
-            <div class="main-logo">
-                <img src="/assets/rsc-logo.png">
+    <div class="contact-us">
+      <section class="mb-4 contact">
+        <!--Section heading-->
+        <h1 class="h1-responsive font-weight-bold text-center my-4">
+          Contact us
+        </h1>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">
+          Do you have any questions? Please do not hesitate to contact us
+          directly. Our team will come back to you within a matter of hours to
+          help you. Call us at 905-735-9314 or send us an email using the form
+          below.
+        </p>
+
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6 mb-md-0 mb-2">
+            <form>
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="name" class="form-control" />
+                    <label for="name" class="">Your name</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="email" id="email" class="form-control" />
+                    <label for="email" class="">Your email</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input type="text" id="subject" class="form-control" />
+                    <label for="subject" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      name="text"
+                      id="text"
+                      placeholder="Please include the year, make, and model of your vehicle with your question"
+                      rows="2"
+                      class="form-control md-textarea"
+                    ></textarea>
+                    <label for="message">Your message</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <div class="text-center text-md-left">
+                      <input
+                        class="btn btn-primary"
+                        type="submit"
+                        value="Submit"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+
+          <div class="col-md-6 rsc-map">
+            <div
+              id="map-container-google-11"
+              class="z-depth-1-half map-container-6"
+              style="height: 400px"
+            >
+              <iframe
+                class="shop-map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11670.994278959482!2d-79.2849906!3d43.0046286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8202951837f3f652!2sRick&#39;s%20Service%20%26%20Tire%20Centre!5e0!3m2!1sen!2sca!4v1588266579977!5m2!1sen!2sca"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
             </div>
-            <div class="main-title">
-                <a class="title-text">Rick's Service Centre</a>
+
+            <br />
+
+            <div class="information col-md-12">
+              <p>Address: 624 South Pelham Road, Welland ON L3C 3C8</p>
+              <p>Hours: Mon-Fri 8:00-5:00</p>
+              <p>Phone: 905-735-9314</p>
             </div>
-            <ul class="nav-links">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="./services">Services</a>
-                </li>
-                <li>
-                    <a href="./tires">Tires</a>
-                </li>
-                <li>
-                    <a href="./contact">Contact</a>
-                </li>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- The Modal -->
+    <div id="failureModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+          Message could not be sent. Please check to make sure you input the
+          correct values in all fields
+        </p>
+      </div>
+    </div>
+
+    <!-- Success -->
+    <div id="successModal" class="modal2">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close2">&times;</span>
+        <p>
+          Message was sent successfully! We will get back to you as soon as
+          possible.
+        </p>
+      </div>
+    </div>
+
+    <!--        <script src="js/mail.js"></script>-->
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--------------------ModalSuccessJS--------------------->
+    <script>
+      var modal2 = document.getElementById("successModal");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close2")[0];
+
+      // When the user clicks on the button, open the modal
+
+      function sentEmailSuccess() {
+        modal2.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal2.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal2) {
+          modal2.style.display = "none";
+        }
+      };
+    </script>
+
+    <!--------------------ModalFailureJS--------------------->
+    <script>
+      var modal = document.getElementById("failureModal");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on the button, open the modal
+
+      function sentEmailFailure() {
+        modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+
+    <script>
+      // Add contact form logic here
+      $("form").on("submit", (e) => {
+        e.preventDefault(); // Disabling this might allow it to refresh (***READ***)
+
+        const name = $("#name").val().trim();
+        const email = $("#email").val().trim();
+        const subject = $("#subject").val().trim();
+        const text = $("#text").val().trim();
+
+        const data = {
+          name,
+          email,
+          subject,
+          text,
+        };
+
+        if (
+          data.email.length != 0 ||
+          data.email.length != 0 ||
+          data.email.length != 0 ||
+          data.email.length != 0
+        ) {
+          $.post("/email", data, function () {
+            console.log("Server received our data");
+          });
+          sentEmailSuccess();
+        } else {
+          console.log("missing email");
+          sentEmailFailure();
+        }
+      });
+    </script>
+
+    <!--JS and JQuery-->
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mb-4">
+              Rick's Service Centre
+            </h5>
+            <p>Open Monday to Friday from 8AM to 5PM.</p>
+            <p>Call us now at 905-735-9314 to schedule an appointment!</p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <p>
+                  <a href="/">Home</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="./services">Services</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="./tires">Tires</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="./contact">Contact Us</a>
+                </p>
+              </li>
             </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-        
-        <div class="contact-us">
-            <section class="mb-4 contact">
+          </div>
+          <!-- Grid column -->
 
-                <!--Section heading-->
-                <h1 class="h1-responsive font-weight-bold text-center my-4">Contact us</h1>
-                <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-                    a matter of hours to help you. Call us at 905-735-9314 or send us an email using the form below.</p>
+          <hr class="clearfix w-100 d-md-none" />
 
-                <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+            <!-- Contact details -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Contact Info</h5>
 
-                    <!--Grid column-->
-                    <div class="col-md-6 mb-md-0 mb-2">
-                        <form>
+            <ul class="list-unstyled">
+              <li>
+                <p><i></i>ricksservice1974@gmail.com</p>
+              </li>
+              <li>
+                <p><i></i>905-735-9314</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
 
-                            <!--Grid row-->
-                            <div class="row">
+          <hr class="clearfix w-100 d-md-none" />
 
-                                <!--Grid column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="name" class="form-control">
-                                        <label for="name" class="">Your name</label>
-                                    </div>
-                                </div>
-                                <!--Grid column-->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+            <!-- Social buttons -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
 
-                                <!--Grid column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="email" id="email" class="form-control">
-                                        <label for="email" class="">Your email</label>
-                                    </div>
-                                </div>
-                                <!--Grid column-->
-
-                            </div>
-                            <!--Grid row-->
-
-                            <!--Grid row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="subject" class="form-control">
-                                        <label for="subject" class="">Subject</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid row-->
-
-                            <!--Grid row-->
-                            <div class="row">
-
-                                <!--Grid column-->
-                                <div class="col-md-12">
-
-                                    <div class="md-form">
-                                        <textarea name="text" id="text" placeholder="Please include the year, make, and model of your vehicle with your question" rows="2" class="form-control md-textarea"></textarea>
-                                        <label for="message">Your message</label>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <!--Grid row-->
-                            <!--Grid row-->
-                            <div class="row">
-
-                                <!--Grid column-->
-                                <div class="col-md-12">
-
-                                    <div class="md-form">
-                                        <div class="text-center text-md-left">
-                                            <input class="btn btn-primary" type="submit" value="Submit">
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                            <!--Grid row-->
-
-                        </form>
-
-                        <div class="status"></div>
-                    </div>
-                    <!--Grid column-->
-                    
-                    <div class="col-md-6 rsc-map">
-
-
-                        <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
-                            <iframe class ="shop-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11670.994278959482!2d-79.2849906!3d43.0046286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8202951837f3f652!2sRick&#39;s%20Service%20%26%20Tire%20Centre!5e0!3m2!1sen!2sca!4v1588266579977!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-
-                        <br>
-
-                        <div class="information col-md-12">
-                            <p>Address: 624 South Pelham Road, Welland ON L3C 3C8</p>
-                            <p>Hours: Mon-Fri 8:00-5:00</p>
-                            <p>Phone: 905-735-9314</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-            
+            <!-- Facebook -->
+            <a
+              target="blank"
+              href="https://www.facebook.com/pages/category/Automotive-Repair-Shop/Ricks-Service-Centre-1173181456175013/"
+              class="fa fa-facebook"
+            ></a>
+          </div>
+          <!-- Grid column -->
         </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
 
-
-        <!-- The Modal -->
-        <div id="failureModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Message could not be sent. Please check to make sure you input the correct values in all fields</p>
-            </div>
-
-        </div>
-
-        <!-- Success -->
-        <div id="successModal" class="modal2">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close2">&times;</span>
-                <p>Message was sent successfully! We will get back to you as soon as possible.</p>
-            </div>
-
-        </div>
-
-
-        <!--        <script src="js/mail.js"></script>-->
-        <script src="js/main.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-        <!--------------------ModalSuccessJS--------------------->
-        <script>
-
-            var modal2 = document.getElementById("successModal");
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close2")[0];
-
-            // When the user clicks on the button, open the modal
-
-            function sentEmailSuccess() {
-                modal2.style.display = "block";
-            }
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-                modal2.style.display = "none";
-            }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-                if (event.target == modal2) {
-                    modal2.style.display = "none";
-                }
-            }
-        </script>
-
-
-        <!--------------------ModalFailureJS--------------------->
-        <script>
-
-            var modal = document.getElementById("failureModal");
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks on the button, open the modal
-
-            function sentEmailFailure() {
-                modal.style.display = "block";
-            }
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-                modal.style.display = "none";
-            }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
-
-        <script>
-            // Add contact form logic here
-            $('form').on('submit', (e) => {
-                e.preventDefault(); // Disabling this might allow it to refresh (***READ***)
-
-                const name = $('#name').val().trim();
-                const email = $('#email').val().trim();
-                const subject = $('#subject').val().trim();
-                const text = $('#text').val().trim();
-
-                const data = {
-                    name,
-                    email,
-                    subject,
-                    text
-                };
-
-                if (data.email.length != 0 || data.email.length != 0 || data.email.length != 0 || data.email.length != 0) {
-                    $.post('/email', data, function() {
-                        console.log('Server received our data');
-                    });
-                    sentEmailSuccess();
-                } else {
-                    console.log('missing email');
-                    sentEmailFailure();
-                }
-
-            });;
-        </script>
-        
-        <!--JS and JQuery-->
-        <script src="js/main.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
-        <!-- Footer -->
-        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
-
-            <!-- Footer Links -->
-            <div class="container text-center text-md-left">
-
-                <!-- Grid row -->
-                <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-
-                        <!-- Content -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Rick's Service Centre</h5>
-                        <p>Open Monday to Friday from 8AM to 5PM.</p>
-                        <p>Call us now at 905-735-9314 to schedule an appointment!</p>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="clearfix w-100 d-md-none">
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-                        <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <p>
-                                    <a href="/">Home</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <a href="./services">Services</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <a href="./tires">Tires</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <a href="./contact">Contact Us</a>
-                                </p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="clearfix w-100 d-md-none">
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-                        <!-- Contact details -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Contact Info</h5>
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <p>
-                                    <i></i>ricksservice1974@gmail.com</p>
-                            </li>
-                            <li>
-                                <p>
-                                    <i></i>905-735-9314</p>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="clearfix w-100 d-md-none">
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-
-                        <!-- Social buttons -->
-                        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
-
-                        <!-- Facebook -->
-                        <a target="blank" href="https://www.facebook.com/pages/category/Automotive-Repair-Shop/Ricks-Service-Centre-1173181456175013/" class="fa fa-facebook"></a>
-
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-            </div>
-            <!-- Footer Links -->
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3 copyright">© 2020 Copyright:
-                <a href="#">Astralight</a>
-            </div>
-            <!-- Copyright -->
-
-        </footer>
-        <!-- Footer -->
-        
-    </body>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 copyright">
+        © 2020 Copyright:
+        <a href="#">Astralight</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
