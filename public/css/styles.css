@@ -96,7 +96,12 @@ body {
 
 .update-bar {
   padding-left: 40px;
-  color: rgb(244, 76, 76);
+  padding-top: 10px;
+  color: black;
+}
+
+.update-bar-description {
+  background-color: rgb(248, 210, 70);
 }
 
 .lead {
@@ -104,7 +109,7 @@ body {
 }
 
 .update-bar-description .lead {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .update-bar {
@@ -448,7 +453,7 @@ html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("/assets/michelin.jpg");
 
   /* Set a specific height */
