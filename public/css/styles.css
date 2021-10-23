@@ -44,6 +44,13 @@
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.carousel-item {
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
