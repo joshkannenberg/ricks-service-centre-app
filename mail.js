@@ -50,7 +50,7 @@ const sendMail2 = (name, email, subject, text, cb) => {
       " via ricksservicecentre.ca",
   };
 
-  transporter.sendMail(mailOptions, function (err, data) {
+  transporter.sendMail2(mailOptions, function (err, data) {
     if (err) {
       cb(err, null);
     } else {
