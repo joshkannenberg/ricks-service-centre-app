@@ -15,7 +15,31 @@ const sendMail = (name, email, subject, text, cb) => {
   const mailOptions = {
     name: name,
     from: email,
-    to: ["ricksservice1974@gmail.com", "josh@ricksservicecentre.ca"],
+    to: "ricksservice1974@gmail.com",
+    subject,
+    text:
+      text +
+      "\n" +
+      "\n" +
+      "Message sent from " +
+      name +
+      " via ricksservicecentre.ca",
+  };
+
+  transporter.sendMail(mailOptions, function (err, data) {
+    if (err) {
+      cb(err, null);
+    } else {
+      cb(null, data);
+    }
+  });
+};
+
+const sendMail2 = (name, email, subject, text, cb) => {
+  const mailOptions = {
+    name: name,
+    from: email,
+    to: "josh@ricksservicecentre.ca",
     subject,
     text:
       text +
@@ -36,3 +60,4 @@ const sendMail = (name, email, subject, text, cb) => {
 };
 
 module.exports = sendMail;
+module.exports = sendMail2;
