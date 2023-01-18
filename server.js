@@ -28,6 +28,20 @@ app.post("/email", (req, res) => {
   });
 });
 
+app.post("/email", (req, res) => {
+  console.log("Data: ", req.body);
+
+  const { name, email, subject, text } = req.body;
+
+  sendMail2(name, email, subject, text, function (err, data) {
+    if (err) {
+      res.status(500).json({ message: "Internal Error" });
+    } else {
+      res.json({ message: "Email Sent!" });
+    }
+  });
+});
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
